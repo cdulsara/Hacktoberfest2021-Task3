@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 //Global Variable
-int size,choice,ele;
+int size,choice,ele,i;
 
 
 //Creating Stack
@@ -47,7 +47,7 @@ int pop()
 int peek()
 {
     int display;
-    display=st.arr[st.rear];
+    display = st.arr[i];
     return display;
 }
 
